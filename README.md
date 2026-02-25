@@ -1,58 +1,36 @@
-# CV Estudiante — React + Tailwind CSS
+# Portafolio Personal — Bladimir Barriga
 
-Página web personal tipo CV adaptada para estudiante universitario.
-Diseño **dark mode** con acento en cian. Construida con React + Tailwind CSS.
+Este repositorio contiene el código fuente de mi página web personal tipo CV.
+El proyecto fue desarrollado utilizando **React (Vite)** y estilizado completamente con **Tailwind CSS**, siguiendo una arquitectura basada en componentes.
 
----
+## Tecnologías utilizadas
 
-## 🚀 Cómo iniciar
+* **React + Vite**: Para la estructura y lógica de la interfaz.
+* **Tailwind CSS**: Para el diseño responsivo y el modo oscuro (Dark Mode).
+* **JavaScript (ES6+)**: Lógica de los componentes.
 
-```bash
-# 1. Instalar dependencias
-npm install
+## Estructura del Proyecto
 
-# 2. Servidor de desarrollo
-npm run dev
-```
+El código está organizado en la carpeta `src/components` para mantener el orden:
 
-Abre [http://localhost:5173](http://localhost:5173)
+* `Hero.jsx`: Sección principal de presentación.
+* `About.jsx`: Información personal y descripción.
+* `Skills.jsx`: Visualización de mis habilidades técnicas.
+* `Projects.jsx`: Galería de proyectos destacados.
+* `Education.jsx`: Historial académico.
 
----
+## Cómo ejecutarlo localmente:
 
-## 📁 Componentes
+1.  Clona el repositorio:
+    ```bash
+    git clone [https://github.com/bladimirbarriga79363-lgtm/cv-alumno.git](https://github.com/bladimirbarriga79363-lgtm/cv-alumno.git)
+    ```
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    ```
+3.  Corre el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
 
-```
-src/components/
-├── Navbar.jsx        → Navegación fija (dark)
-├── Hero.jsx          → Portada con nombre + status
-├── About.jsx         → Bio + datos personales
-├── Skills.jsx        → Stack con indicador de nivel
-├── Projects.jsx      → Proyectos académicos/personales
-├── Activities.jsx    → Actividades extracurriculares
-├── Education.jsx     → Carrera + certificados
-└── Footer.jsx        → Pie de página
-```
-
----
-
-## ✏️ Qué editar
-
-| Archivo | Qué cambiar |
-|---|---|
-| `Navbar.jsx` | Tu nombre en el logo `<TU_NOMBRE />` |
-| `Hero.jsx` | Nombre, apellido, carrera, ciudad |
-| `About.jsx` | Bio, carrera, semestre, universidad, email, GitHub |
-| `Skills.jsx` | Tecnologías y nivel (Aprendiendo / Practicando / Cómodo) |
-| `Projects.jsx` | Título, descripción, tags, links de GitHub/demo |
-| `Activities.jsx` | Hackathons, clubes, cursos extracurriculares |
-| `Education.jsx` | Carrera, universidad, materias relevantes |
-| `Footer.jsx` | Tu nombre, GitHub, LinkedIn |
-
----
-
-## 🌐 Subir a Vercel
-
-1. Haz `git push` de tu proyecto a GitHub
-2. Ve a [vercel.com](https://vercel.com) → **New Project**
-3. Importa tu repositorio — Vercel detecta Vite automáticamente
-4. Click en **Deploy** ✅
